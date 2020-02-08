@@ -42,7 +42,7 @@ namespace Assignment1
                 string[] words = new string[no];
                 for (int st = 0; st < no; st++)
                 {
-                    Console.WriteLine("Enter " + (st + 1) + " word: ");
+                    Console.Write("Enter " + (st + 1) + " word: ");
                     words[st] = Console.ReadLine();
                 }
                 PalindromePairs(words);
